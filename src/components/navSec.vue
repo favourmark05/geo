@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 border-bottom border-secondar shadow fixed-top">
       <router-link to="/" class="navbar-brand">
-        <img src="../assets/geologo.png" width="90" height="40" class="d-inline-block align-top" alt="">
+        <img src="../assets/logo.png" width="90" height="40" class="d-inline-block align-top" alt="">
       </router-link>
       <button
         class="navbar-toggler"
