@@ -1,7 +1,9 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 border-bottom border-secondar shadow fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <router-link to="/" class="navbar-brand">
+        <img src="../assets/geologo.png" width="90" height="40" class="d-inline-block align-top" alt="">
+      </router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,7 +22,7 @@
             <a class="nav-link" href="#">Discover</a>
           </li>
           <li class="nav-item px-4">
-            <a class="nav-link text-info" href="#">Create</a>
+            <router-link to="create" class="nav-link text-info" href="#">Create</router-link>
           </li>
           <li class="nav-item px-4">
             <a class="nav-link btn btn-secondary rounded-pill text-white px-4" href="#">Download</a>
@@ -106,7 +108,7 @@ export default {
   z-index: 10 !important;
   position: absolute;
   margin-left: 74vw;
-  margin-top: 33vh;
+  margin-top: 300px;
 }
 .pro-img{
   height: 40px;

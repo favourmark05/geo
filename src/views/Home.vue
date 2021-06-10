@@ -4,8 +4,8 @@
 <div class="d-flex top fixed" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <router-link to="#" class=" pl-3 nav-link">Discription</router-link>
-                <hr>
+                <router-link to="#" class=" pl-3 nav-link des t-font font-weight-bold">Discription</router-link>
+                <hr class="hr-1">
                 <div class="list-group list-group-flus">
                   <p class="list-group p-3 font-weight-bold">Points</p>
                     <router-link to="#" class="p-3 d-flex nav-link">
@@ -191,7 +191,7 @@
   </div>
   <!-- Modal -->
 <div class="modal fade" id="preview" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollabl">
     <div class="modal-content">
       <div class="card-body">
         <h2 class="modal-title font-weight-bold" id="staticBackdropLabel">Publish tour</h2>
@@ -331,13 +331,13 @@ export default {
   margin-top: 20px !important;
 }
 .top{
-  padding-top: 10vh;
+  padding-top: 85px;
 }
 .btn-add:focus, .btn-add:hover{
   background-color: white;
 }
 .side-card{
-  margin-top: 8vh;
+  margin-top: 75px;
 }
 .fa-check-circle{
   color: #0BCD74 !important;
@@ -377,5 +377,16 @@ margin-top: 0.3em;
 }
 .sub-link > .nav-item:focus {
 color: teal !important;
+}
+.des{
+  color: black;
+  font-size: 24px;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.t-font{
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+.hr-1{
+  color: #2DAEE1;
 }
 </style>
